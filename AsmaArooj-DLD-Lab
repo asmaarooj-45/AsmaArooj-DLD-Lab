@@ -1,0 +1,41 @@
+package encapsulation;
+public class Book 
+{
+   private String title;
+   private String auther;
+   private String isbn;
+    public Book(String title, String auther, String isbn) {
+        this.title = title;
+        this.auther = auther;
+        this.isbn = isbn;
+    }
+    public String getTitle() {
+        return title;
+    }
+    public String getAuther() {
+        return auther;
+    }
+    public String getIsbn() {
+        return isbn;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setAuther(String auther) {
+        this.auther = auther;
+    }
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+}
+//Main 
+package encapsulation;
+public class Encapsulation {
+    public static void main(String[] args)
+    {
+        Book b=new Book("Peer e Kamil","Nimra Khalid","dfgs5263");
+        System.out.println("Book title: "+b.getTitle());
+        System.out.println("Auther Name: "+b.getAuther());
+        System.out.println("isbn: "+b.getIsbn());
+    }
+}
