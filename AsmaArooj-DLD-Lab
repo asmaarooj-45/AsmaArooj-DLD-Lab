@@ -33,7 +33,7 @@ package encapsulation;
 public class Encapsulation {
     public static void main(String[] args)
     {
-        Book b=new Book("Peer e Kamil","Nimra Khalid","dfgs5263");
+        Book b=new Book("Peer e Kamil","Nimra Ahmed","dfgs5263");
         System.out.println("Book title: "+b.getTitle());
         System.out.println("Auther Name: "+b.getAuther());
         System.out.println("isbn: "+b.getIsbn());
